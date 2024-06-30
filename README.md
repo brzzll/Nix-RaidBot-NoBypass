@@ -1,5 +1,6 @@
 # Nix-RaidBot-NoBypass
 Réplica del raid bot de la squad de Nix hecho en Javascript. (sin bypass para bots antiraids)
+- Nota: Si quieres obtener la versión con bypass para bots antiraids como Security o RB3 Guard, ve al servidor de ZenX y abre ticket.
 - Requerimientos:
   - [NodeJS](https://nodejs.org/)
   
@@ -10,4 +11,3 @@ Réplica del raid bot de la squad de Nix hecho en Javascript. (sin bypass para b
 - Dónde puedo conseguir **ayuda** ?
   - En el servidor de **Z**en**X** ( **https://discord.gg/kEB3PCPkzc** o **https://dsc.gg/zenxcorp** )
 - Video de presentación: -
-- Nota: Si quieres obtener la versión con bypass para bots antiraids como Security o RB3 Guard, ve al servidor de ZenX y abre ticket.
