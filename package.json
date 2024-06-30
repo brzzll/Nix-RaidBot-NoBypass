@@ -1,0 +1,15 @@
+{
+  "name": "nix",
+  "version": "1.0.0",
+  "description": "A nixsquad raid bot by ZenXTeam xdxdxDXD",
+  "main": "nix-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zenX$Team",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "node-fetch": "^2.6.7"
+  }
+}
