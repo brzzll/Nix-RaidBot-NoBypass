@@ -18,9 +18,9 @@ const prefix_p = "#"; // Prefijo de los comandos premium
 let config_usuarios_premium = {};
 let idservidores_nopermitidos = ["id_de_tu_servidor", "otro_id_xdd", "y_otro_id_:v"]; // Lista de IDs de servidores donde el bot no puede ejecutar comandos de ataque
 let usuarios_owners = ["", ""]; // Lista de IDs de los usuarios owners
-let usuarios_premium = [];
+let usuarios_premium = []; //Agrega usuarios Premium con #user.add
 let blacklist_user = [];
-const channel_logs = ""; //ID del canal a donde se enviarán los registros - El bot debe estar dentro de ese servidor.
+const channel_logs = "1256824639791825016"; //ID del canal a donde se enviarán los registros - El bot debe estar dentro de ese servidor.
 let blacklist_users_json = fs.readFileSync("blacklist_users.json", 'utf-8');
 let blaclist_usersids = JSON.parse(blacklist_users_json);
 for (let i = 0; i < blaclist_usersids.length; i++) {
@@ -169,6 +169,10 @@ client.on(`messageCreate`,async (msg)=>{
         } catch (e) {
             console.log(e);
         }
+        if(idservidores_nopermitidos.includes(msg.guild.id)){
+            await msg.channel.send({content:`> Ese servidor no está permitido.`});
+            return;
+        };
         async function enviar_msgxd(canal) {
             let canalxdxd = client.channels.cache.get(canal.id);
             for (let index = 0; index < 30; index++) {
