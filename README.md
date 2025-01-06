@@ -10,6 +10,6 @@ Réplica del raid bot de la squad de Nix hecho en Javascript. (sin bypass para b
   - Una vez instalado los módulos necesarios, ejecuta "start.bat" para encender el bot.
 - Dónde puedo conseguir **ayuda** ?
   - En el servidor de **Z**en**X** ( **https://discord.gg/zCQ8jQ2GBf** o **https://dsc.gg/zenxcorpp** )
-- Video de presentación: -
+- Video de presentación: - ** https://www.youtube.com/watch?v=xKY-d0QkKjE **
 
 - Si vas a usar los códigos, debes dar créditos.
